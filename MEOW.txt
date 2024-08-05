@@ -46,7 +46,7 @@ class Buttons(discord.ui.View):
 
     @discord.ui.button(label="÷", style=discord.ButtonStyle.blurple, row=0)
     async def divide(self, interaction: discord.Interaction, Button: discord.ui.Button):
-        await self.add(interaction, "÷")
+        await self.add(interaction, "/")
 
     @discord.ui.button(label="7", style=discord.ButtonStyle.grey, row=1)
     async def s7(self, interaction: discord.Interaction, Button: discord.ui.Button):
